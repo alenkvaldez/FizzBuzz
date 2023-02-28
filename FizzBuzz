@@ -1,0 +1,14 @@
+public string FizzBuzz(int num) 
+{
+var answer = “”;
+if (num % 3 == 0)
+{
+answer= ”fizz”;
+}
+
+if (num % 5 == 0)
+{
+answer += ”buzz” // answer = answer + “buzz”
+}
+return answer;
+}
