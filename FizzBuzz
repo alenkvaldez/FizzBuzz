@@ -1,14 +1,21 @@
-public string FizzBuzz(int num) 
-{
-var answer = “”;
-if (num % 3 == 0)
-{
-answer= ”fizz”;
-}
+Write a public method that accepts a number
+when the number is divisible by 3 return the word fizz
 
-if (num % 5 == 0)
-{
-answer += ”buzz” // answer = answer + “buzz”
-}
-return answer;
+when the number is divisible by 5 return the word buzz
+
+when the number is divisible by both, return the word fizzbuzz
+
+public string FizzBuzz(int num) 
+
+    if (i % 3 == 0) {
+        console.log("FIZZ");
+    }
+    if (i % 5 == 0) {
+        console.log("BUZZ");
+    }
+    else {
+        if (i % 3 == 0 && i % 5 == 0) {
+            console.log("FIZZBUZZ");
+        }
+    }
 }
